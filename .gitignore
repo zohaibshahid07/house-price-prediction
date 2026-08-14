@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+DATA/House price india.zip
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +219,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+>>>>>>> 57217b7a29c55b8fae30a349c3e6a54e370c46e8
