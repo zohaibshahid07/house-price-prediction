@@ -49,6 +49,18 @@ for feature in all_feature_names:
     if feature == "Number of schools nearby":
         inputvalues.append(0.0)
         continue
+
+    if feature == "number of bathrooms":
+        inputvalues.append(0.0)
+        continue
+
+    if feature == "Area of the basement":
+        inputvalues.append(0.0)
+        continue
+
+    if feature == "Renovation Year":
+        inputvalues.append(0.0)
+        continue   
     #------------------------------------------------------------------ 
     if feature == "Date": 
         value = st.date_input("Select Date") 
@@ -66,22 +78,6 @@ for feature in all_feature_names:
  
         inputvalues.append(value) 
     #------------------------------------------------------------------- 
-    elif feature == "number of bathrooms": 
-        value = st.text_input("Number of Bathrooms", value="0") 
- 
-        try: 
-            value = float(value) 
- 
-            if value < 0: 
-                st.error("Value cannot be negative.") 
-                value = 0.0 
- 
-        except ValueError: 
-            st.error("Please enter correct value.") 
-            value = 0.0 
-
-        inputvalues.append(value) 
-    #------------------------------------------------------------------- 
     elif feature == "living area": 
         value = st.text_input("Living Area (Square Feet)", value="0.00") 
 
@@ -90,22 +86,6 @@ for feature in all_feature_names:
  
             if value < 0: 
                 st.error("Living Area cannot be negative.") 
-                value = 0.0 
- 
-        except ValueError: 
-            st.error("Please enter correct value.") 
-            value = 0.0 
-
-        inputvalues.append(value) 
-    #------------------------------------------------------------------- 
-    elif feature == "Area of the basement": 
-        value = st.text_input("Area of the basement-Square Feet", value="0.00") 
-
-        try: 
-            value = float(value) 
- 
-            if value < 0: 
-                st.error("Area cannot be negative.") 
                 value = 0.0 
  
         except ValueError: 
@@ -197,22 +177,6 @@ for feature in all_feature_names:
 
         inputvalues.append(value) 
     #------------------------------------------------------------------- 
-    elif feature == "Renovation Year": 
-        value = st.text_input("Renovation Year", value="1900") 
-
-        try: 
-            value = float(value) 
- 
-            if value < 0: 
-                st.error("Renovation year cannot be negative.") 
-                value = 0.0 
- 
-        except ValueError: 
-            st.error("Please enter correct value.") 
-            value = 0.0 
-
-        inputvalues.append(value) 
-    #------------------------------------------------------------------- 
     elif feature == "Postal Code": 
         value = st.text_input("Postal Code", value="000000") 
 
@@ -283,7 +247,7 @@ for feature in all_feature_names:
         inputvalues.append(value) 
     #------------------------------------------------------------------- 
 
-# Prediction button 
+# Prediction button
 if st.button("Predict House Price"): 
  
     # Convert inputs into NumPy array 
