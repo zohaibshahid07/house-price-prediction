@@ -36,19 +36,19 @@ The model runs on a **Streamlit web app**, making it easy for anyone to use with
 
 ## 🔄 How It Works
 Get house data
-↓
+→
 Clean and prepare data
-↓
+→
 Split into training and testing
-↓
+→
 Use Genetic Algorithm to find best features
-↓
+→
 Train Random Forest model
-↓
+→
 Test and measure accuracy
-↓
+→
 Save trained model
-↓
+→
 Deploy on Streamlit web app
 
 ---
