@@ -73,7 +73,7 @@ The dataset was cleaned and prepared before model training.
 
 ---
 
-## ⚙️ Machine Learning Workflow
+## Machine Learning Workflow
 
 ```text
 Dataset
