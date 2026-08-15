@@ -4,7 +4,7 @@ Predict Indian house prices using Machine Learning with Genetic Algorithm.
 ## What It Does
 - Uses Random Forest Regressor for price prediction of houses
 - Genetic Algorithm selects only important features of houses
-- Web app for instant predictions of prediction oh house
+- Web app for instant predictions of prediction of house
 
 ## How to Use
 Visit the live app and enter house details to get instant price predictions.
