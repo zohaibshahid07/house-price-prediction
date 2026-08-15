@@ -1,28 +1,104 @@
-# House Price Prediction
-Predict Indian house prices using Machine Learning with Genetic Algorithm.
+# 🏠 House Price Prediction Using Machine Learning and Genetic Algorithm
 
-## What It Does
-- Uses Random Forest Regressor for price prediction of houses
-- Genetic Algorithm selects only important features of houses
-- Web app for instant predictions of prediction of house
+## 📌 Project Overview
 
-## How to Use
-Visit the live app and enter house details to get instant price predictions.
+This project is a **House Price Prediction web application** developed using
+Python, Machine Learning, Genetic Algorithm, and Streamlit.
 
-## Features Used
-- Bedrooms, living area, lot area
-- Floor count, condition, grade
-- Construction year, location (longitude, postal code)
-- And more...
+The application predicts an estimated house price based on property
+characteristics such as bedrooms, living area, lot area, floors, condition,
+grade, location, and renovation details.
 
-## Model Info
-- **Algorithm**: Random Forest + Genetic Algorithm
-- **Accuracy**: 90% (R² Score)
-- **Features**: 16 selected out of 20
+A **Random Forest Regressor** is used as the main prediction model, while a
+**Genetic Algorithm (GA)** is used for feature selection.
 
-## Technologies
-- Python, Scikit-learn, Streamlit, NumPy
+The trained model is integrated into an interactive Streamlit application
+where users can enter house information and receive an estimated price.
+
+---
+
+## 🎯 Objectives
+
+- Develop a machine learning model for house price prediction.
+- Use Random Forest Regression for price prediction.
+- Apply Genetic Algorithm for feature selection.
+- Identify important features for the final model.
+- Evaluate model performance using regression metrics.
+- Save the trained model using Joblib.
+- Develop an interactive Streamlit web application.
+
+---
+
+## 🧠 Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Programming language |
+| Pandas | Data processing |
+| NumPy | Numerical operations |
+| Scikit-learn | Machine learning |
+| Random Forest | House price prediction |
+| Genetic Algorithm | Feature selection |
+| Joblib | Model saving and loading |
+| Matplotlib | Data visualization |
+| Seaborn | Data visualization |
+| Streamlit | Web application |
+| Git & GitHub | Version control |
+
+---
+
+## 📊 Dataset
+
+The project uses a house price dataset containing property-related
+information.
+
+Important features include:
+
+- Number of bedrooms
+- Living area
+- Lot area
+- Number of floors
+- Waterfront presence
+- Number of views
+- House condition
+- House grade
+- House area excluding basement
+- Built year
+- Postal code
+- Latitude and longitude
+- Renovated living area
+- Renovated lot area
+
+The dataset was cleaned and prepared before model training.
+
+---
+
+## ⚙️ Machine Learning Workflow
+
+```text
+Dataset
+   ↓
+Data Cleaning
+   ↓
+Feature Preparation
+   ↓
+Train-Test Split
+   ↓
+Random Forest Regressor
+   ↓
+Genetic Algorithm
+   ↓
+Feature Selection
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Model Saving
+   ↓
+Streamlit Deployment
 
 ## Author
-Zohaib Shahid  
+Zohaib Shahid
+Electrical Engineering | Python | Machine Learning | C++ 
 SEECS, NUST, Islamabad
