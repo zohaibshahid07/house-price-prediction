@@ -166,7 +166,7 @@ if st.session_state.page == "predictor":
             try:
                 value = float(value)
 
-                if value <= 0:
+                if value < 0:
                     invalid_input = True
 
             except ValueError:
@@ -180,7 +180,7 @@ if st.session_state.page == "predictor":
             try:
                 value = float(value)
 
-                if value <= 0:
+                if value < 0:
                     invalid_input = True
 
             except ValueError:
