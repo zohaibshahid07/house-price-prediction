@@ -98,7 +98,7 @@ Model Saving
    ↓
 Streamlit Deployment
 
-## Author
+## **Author**
 Zohaib Shahid
 Electrical Engineering | Python | Machine Learning | C++ 
 SEECS, NUST, Islamabad
