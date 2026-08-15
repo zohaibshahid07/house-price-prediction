@@ -14,10 +14,10 @@ The model runs on a **Streamlit web app**, making it easy for anyone to use with
 ---
 
 ## 🎯 Main Goals
-✓ Build a model that accurately predicts house prices  
-✓ Use Genetic Algorithm to find the most important features  
-✓ Train and save the model  
-✓ Create a simple web app for users  
+⟡ Build a model that accurately predicts house prices  
+⟡ Use Genetic Algorithm to find the most important features  
+⟡ Train and save the model  
+⟡ Create a simple web app for users  
 
 ---
 
